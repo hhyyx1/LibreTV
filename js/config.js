@@ -46,6 +46,14 @@ const API_SITES = {
     dbzy: {
         api: 'https://dbzy.com',
         name: '豆瓣资源',
+    },
+    jingpinx: {
+        api: 'https://jingpinx.com',
+        name: '精品x资源',
+    },
+    yutuzy: {
+        api: 'https://yutuzy.com',
+        name: '玉兔资源',
     }
 };
 
