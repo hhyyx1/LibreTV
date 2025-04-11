@@ -55,15 +55,20 @@ const API_SITES = {
         api: 'https://dbzy.com',
         name: '豆瓣资源',
     },
-    jingpinx: {
+    dplayer: {
         api: 'https://www.jingpinx.com',
         name: '精品x资源',
         detail: 'https://jingpinx.com'
     },
-    yutuzy: {
+    ytm3u8: {
         api: 'https://apiyutu.com',
         name: '玉兔资源',
         detail: 'https://yutuzy.com'
+    },
+    xjplayer: {
+        api: 'https://api.xiaojizy.live',
+        name: '小鸡资源',
+        detail: 'https://xiaojizy.live'
     }
 };
 
