@@ -56,12 +56,14 @@ const API_SITES = {
         name: '豆瓣资源',
     },
     jingpinx: {
-        api: 'https://jingpinx.com',
+        api: 'https://www.jingpinx.com',
         name: '精品x资源',
+        detail: 'https://jingpinx.com'
     },
     yutuzy: {
-        api: 'https://yutuzy.com',
+        api: 'https://apiyutu.com',
         name: '玉兔资源',
+        detail: 'https://yutuzy.com'
     }
 };
 
