@@ -129,6 +129,21 @@ const API_SITES = {
         api: 'https://yutuzy10.com',
         name: '玉兔资源',
         adult: true
+    },
+    dplayer: {
+        api: 'https://www.jingpinx.com',
+        name: '精品x资源',
+        detail: 'https://jingpinx.com'
+    },
+    ytm3u8: {
+        api: 'https://apiyutu.com',
+        name: '玉兔资源',
+        detail: 'https://yutuzy.com'
+    },
+    xjplayer: {
+        api: 'https://api.xiaojizy.live',
+        name: '小鸡资源',
+        detail: 'https://xiaojizy.live'
     }
     // 您可以按需添加更多源
 };
