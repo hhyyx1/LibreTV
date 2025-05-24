@@ -97,6 +97,14 @@ const API_SITES = {
         api: 'https://api.apibdzy.com/api.php/provide/vod',
         name: '百度云资源'
     },
+    nnm3u8: {
+        api: 'https://api.niuniuzy.me/api.php/provide/vod',
+        name: '牛牛资源'
+    },
+    fcm3u8: {
+        api: 'https://api.fczy888.me/api.php/provide/vod',
+        name: '蜂巢资源'
+    },
     wujin: {
         api: 'https://api.wujinapi.me/api.php/provide/vod',
         name: '无尽资源'
@@ -109,62 +117,58 @@ const API_SITES = {
         api: 'https://ikunzyapi.com/api.php/provide/vod',
         name: 'iKun资源'
     },
-        ruyi: {
-        api: 'https://cj.rycjapi.com',
+    ruyi: {
+        api: 'https://cj.rycjapi.com/api.php/provide/vod',
         name: '如意资源',
     },
     jkm3u8: {
-        api: 'https://jkunzyapi.com',
+        api: 'https://jkunzyapi.com/api.php/provide/vod',
         name: 'jkun资源',
     },
     bwm3u8: {
-        api: 'https://api.bwzym3u8.com',
+        api: 'https://api.bwzym3u8.com/api.php/provide/vod',
         name: '百万资源',
     },
     souav: {
-        api: 'https://api.souavzy.vip',
+        api: 'https://api.souavzy.vip/api.php/provide/vod',
         name: 'souav资源',
     },
     siwa: {
-        api: 'https://siwazyw.tv',
+        api: 'https://siwazyw.tv/api.php/provide/vod',
         name: '丝袜资源',
     },
     r155: {
-        api: 'https://155api.com',
+        api: 'https://155api.com/api.php/provide/vod',
         name: '155资源',
     },
     lsb: {
-        api: 'https://apilsbzy1.com',
+        api: 'https://apilsbzy1.com/api.php/provide/vod',
         name: 'lsb资源',
     },
     huangcang: {
-        api: 'https://hsckzy.vip',
+        api: 'https://hsckzy.vip/api.php/provide/vod',
         name: '黄色仓库',
         detail: 'https://hsckzy.vip'
     },
-    suoni: {
-        api: 'https://suoniapi.com',
-        name: '索尼资源'
+    s8m3u8: {
+        api: 'https://xingba111.com/api.php/provide/vod',
+        name: '杏吧资源'
     },
-    yutu: {
-        api: 'https://yutuzy10.com',
-        name: '玉兔资源',
-        adult: false
+    xxbm3u8: {
+        api: 'https://www.xxibaozyw.com/api.php/provide/vod',
+        name: 'X细胞资源网',
     },
     dplayer: {
-        api: 'https://www.jingpinx.com',
+        api: 'https://www.jingpinx.com/api.php/provide/vod',
         name: '精品x资源',
-        detail: 'https://jingpinx.com'
     },
     ytm3u8: {
-        api: 'https://apiyutu.com',
+        api: 'https://apiyutu.com/api.php/provide/vod',
         name: '玉兔资源',
-        detail: 'https://yutuzy.com'
     },
     xjplayer: {
-        api: 'https://api.xiaojizy.live',
+        api: 'https://api.xiaojizy.live/provide/vod',
         name: '小鸡资源',
-        detail: 'https://xiaojizy.live'
     },
     testSource: {
         api: 'https://www.example.com/api.php/provide/vod',
@@ -179,47 +183,47 @@ const API_SITES = {
     // 这些影片和背后的产业已经使数百万男女“下海”，出卖自己的身体，甚至以此为生计。
     // 而作为观众无辜吗？毫无疑问，他们促成了黄色产业链的再生产。
     // 我们提供此警告，是希望您能认清这些内容的本质——它们是压迫和奴役的工具，而非娱乐。
-    ckzy: {
-        api: 'https://www.ckzy1.com',
-        name: 'CK资源',
-        adult: true
-    },
-    jkun: {
-        api: 'https://jkunzyapi.com',
-        name: 'jkun资源',
-        adult: true
-    },
-    bwzy: {
-        api: 'https://api.bwzym3u8.com',
-        name: '百万资源',
-        adult: true
-    },
-    souav: {
-        api: 'https://api.souavzy.vip',
-        name: 'souav资源',
-        adult: true
-    },
-    r155: {
-        api: 'https://155api.com',
-        name: '155资源',
-        adult: true
-    },
-    lsb: {
-        api: 'https://apilsbzy1.com',
-        name: 'lsb资源',
-        adult: true
-    },
-    huangcang: {
-        api: 'https://hsckzy.vip',
-        name: '黄色仓库',
-        adult: true,
-        detail: 'https://hsckzy.vip'
-    },
-    yutu: {
-        api: 'https://yutuzy10.com',
-        name: '玉兔资源',
-        adult: true
-   },
+   //  ckzy: {
+   //      api: 'https://www.ckzy1.com',
+   //      name: 'CK资源',
+   //      adult: true
+   //  },
+   //  jkun: {
+   //      api: 'https://jkunzyapi.com',
+   //      name: 'jkun资源',
+   //      adult: true
+   //  },
+   //  bwzy: {
+   //      api: 'https://api.bwzym3u8.com',
+   //      name: '百万资源',
+   //      adult: true
+   //  },
+   //  souav: {
+   //      api: 'https://api.souavzy.vip',
+   //      name: 'souav资源',
+   //      adult: true
+   //  },
+   //  r155: {
+   //      api: 'https://155api.com',
+   //      name: '155资源',
+   //      adult: true
+   //  },
+   //  lsb: {
+   //      api: 'https://apilsbzy1.com',
+   //      name: 'lsb资源',
+   //      adult: true
+   //  },
+   //  huangcang: {
+   //      api: 'https://hsckzy.vip',
+   //      name: '黄色仓库',
+   //      adult: true,
+   //      detail: 'https://hsckzy.vip'
+   //  },
+   //  yutu: {
+   //      api: 'https://yutuzy10.com',
+   //      name: '玉兔资源',
+   //      adult: true
+   // },
 
     // 下面是资源失效率高的API源，不建议使用
     // subo: {
